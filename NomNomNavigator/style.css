@@ -1,3 +1,7 @@
+body #splashscreen {
+    background-color: black;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif; 
     color: #32303A;
@@ -19,6 +23,3 @@ p {
     font-size: 20px;
 }
 
-#splashscreen {
-    background-color: black;
-}
