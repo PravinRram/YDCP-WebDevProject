@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: #B4000F;
+}
+
+h1 {
+    font-size: 24px;
+    color: gold;
+}
+
+p {
+    font-size: 20px;
+}
