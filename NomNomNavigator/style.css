@@ -1,18 +1,18 @@
 body {
     font-family: Arial, Helvetica, sans-serif; 
-    color: white;
-    background-color: black;
+    color: #32303A;
+    background-color: #FCDEC0;
     text-align: center;
 }
 
 h2 {
     font-size: 30px;
-    color: #B4000F;
+    color: #B4846C;
 }
 
 h1 {
     font-size: 24px;
-    color: gold;
+    color: #7D5A50;
 }
 
 p {
