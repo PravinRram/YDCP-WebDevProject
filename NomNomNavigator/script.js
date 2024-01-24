@@ -1,4 +1,14 @@
-.location.href = "dessert.html"
+function goToHomeScreen() {
+    setTimeout(() => {
+        window.location.href = "home.html"
+    }, "2000");
+}
+
+function goToCategory() {
+    var selectedCategory = document.getElementById("category").value
+
+    if (selectedCategory == "Dessert") {
+        window.location.href = "dessert.html"
     }
 
     // fill in the remaining options
