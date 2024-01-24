@@ -6,12 +6,6 @@ document.addEventListener('DOMContentLoaded', (e)=>(
     }, "2000")
 ))
 
-function goToHomeScreen() {
-    setTimeout(() => {
-        window.location.href = "home.html"
-    }, "2000");
-}
-
 function goToCategory() {
     var selectedCategory = document.getElementById("category").value
 
