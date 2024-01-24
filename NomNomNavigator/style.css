@@ -9,6 +9,10 @@
     line-height: 90vh;
 }
 
+.splashscreen p, h1, h2 {
+    color: #FCDEC0;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif; 
     color: #32303A;
