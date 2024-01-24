@@ -5,7 +5,7 @@ body {
     text-align: center;
 }
 
-.splashscreen {
+.splash {
     background-color: black;
     color: #FCDEC0;
     text-align: center;
@@ -18,7 +18,7 @@ body {
     line-height: 90vh;
 }
 
-.splashscreen.display-none {
+.splash.display-none {
     background-color: black;
     color: #FCDEC0;
     text-align: center;
