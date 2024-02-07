@@ -1,9 +1,9 @@
 const chineseMain = ["Char Siu Noodles", "Chicken Rice", "Chinese Eggplant Rice", "Peking duck"];
 const chineseDrink = ["Yunnan Coffee", "Black Tea", "Kombucha"];
 const chineseSnack = ["Bak Kwa", "Dumplings", "Spring Rolls"];
-const chineseDessert = ["Chendol", "Almond Jelly", "Mooncake"];
+const chineseDessert = ["Chendol", "Almond Jelly with Fruit", "Mooncake"];
 
-const indianMain = ["Butter Chicken", "Chicken Biryani", "Masala Dosa", "Paneer Masala"];
+const indianMain = ["Butter Chicken and Naan", "Chicken Biryani", "Masala Dosa", "Paneer Masala and Naan"];
 const indianDrink = ["Mango Lassi", "Buttermilk", "Chai", "Badam Milk"];
 const indianSnack = ["Samosa", "Murukku", "Pakora", "Dhokla"];
 const indianDessert = ["Gulab Jamun", "Rasmalai", "Kulfi"];
@@ -20,7 +20,7 @@ const mexicanDessert = ["Mexican Hot Chocolate Pie", "Churros", "Flan Mexicano"]
 
 const westernMain = ["Meat Pie", "Steak", "Turkey", "Fish and Chips"];
 const westernDrink = ["Hot Chocolate", "Lemonade", "Root Beer"];
-const westernSnack = ["Salad", "Maple Pancakes", "French Fries"];
+const westernSnack = ["Garden Salad", "Maple Pancakes", "French Fries"];
 const westernDessert = ["Chocolate Lava Cake", "Tiramisu", "Cinnamon Rolls", "Donuts", "Gingerbread Cookies"];
 
 function generateRandomFood() {
