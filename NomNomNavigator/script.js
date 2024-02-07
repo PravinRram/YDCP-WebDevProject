@@ -44,7 +44,7 @@ function generateRandomFood() {
         case "western":
             foodOptions = getFoodOptions(westernMain, westernDrink, westernSnack, westernDessert, foodType);
             break;
-        case "All":
+        case "all-cuisines":
             foodOptions = getFoodOptions(chineseMain, chineseDrink, chineseSnack, chineseDessert,indianMain, indianDrink, indianSnack, indianDessert,japaneseMain, japaneseDrink, japaneseSnack, japaneseDessert,mexicanMain, mexicanDrink, mexicanSnack, mexicanDessert,westernMain, westernDrink, westernSnack, westernDessert, foodType);
             break;   
         default:
