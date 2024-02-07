@@ -9,9 +9,9 @@ const indianSnack = ["Samosa", "Murukku", "Pakora", "Dhokla"];
 const indianDessert = ["Gulab Jamun", "Rasmalai", "Kulfi"];
 
 const japaneseMain = ["Ramen", "Teriyaki Chicken Rice", "Udon", "Katsu"];
-const japaneseDrink = ["Sakura Mochi", "Hokkaido Baked Cheese Tarts"];
-const japaneseSnack = [];
-const japaneseDessert = [];
+const japaneseDrink = ["Amazake", "Sake", "Matcha", "Royal Milk Tea"];
+const japaneseSnack = ["Onigiri", "Caramel Corn", "Pocky", "Rice Crackers"];
+const japaneseDessert = ["Sakura Mochi", "Hokkaido Baked Cheese Tarts", "Raindrop Cake", "Purin"];
 
 const mexicanMain = [];
 const mexicanDrink = [];
