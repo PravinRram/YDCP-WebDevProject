@@ -18,10 +18,10 @@ const mexicanDrink = ["Rompope", "Hibiscus Tea", "Carajillo"];
 const mexicanSnack = ["Nachos", "Tacos", "Avacado Salsa", "chimichanga"];
 const mexicanDessert = ["Mexican Hot Chocolate Pie", "Churros", "Flan Mexicano"];
 
-const westernMain = [];
-const westernDrink = [];
-const westernSnack = [];
-const westernDessert = [];
+const westernMain = ["Meat Pie", "Steak", "Turkey", "Fish and Chips"];
+const westernDrink = ["Hot Chocolate", "Lemonade", "Root Beer"];
+const westernSnack = ["Salad", "Maple Pancakes", "French Fries"];
+const westernDessert = ["Chocolate Lava Cake", "Tiramisu", "Synonym Rolls", "Donuts", "Gingerbread Cookies"];
 
 function generateRandomFood() {
     const cuisine = document.getElementById("cuisines").value;
