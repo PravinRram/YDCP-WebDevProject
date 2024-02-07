@@ -1,36 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>NomNomNavigator - Aditya, Navin & Pravin</title>
+        <title>NomNomNavigator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
         <script src="script.js"></script>
     </head>
 
-    <div class="splash">
-        <div class="fade-in">
-            <h1>NomNomNavigator</h1>
-            <p>By Aditya, Navin & Pravin
-                <br>YDCP 2024
-            </p>
-        </div>
-    </div>
-
     <body>
-        
-        <header>NomNomNavigator</header>
-        <button type="button" onclick="goToCategory()">Randomise</button> <br>
-        <select id="category">
-            <option value="Indian">Indian</option>
-            <option value="Chinese">Chinese</option>
-            <option value="Japanese">Japanese</option>
-            <option value="Western">Western</option>
-            <option value="Mexican">Mexican</option>
-        </select>
-        <select id="category">
-            <option value="Dessert">Dessert</option>
-            <option value="Main">Main</option>
-            <option value="Snacks">Snacks</option>
-            <option value="Drinks">Drinks</option>
-        </select>
+        <header>
+            <a href="home.html" class="logo">NomNomNavigator</a>
+            <div class="header-right">
+                <a class="active-tab" href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="feedback.html">Feedback</a>
+            </div>
+        </header>
+
+        <div class="filter-container">
+            <div class="filter-div" id="filter-cuisines">
+                <label for="cuisines-label">Choose Cuisine:</label>
+                <select name="Cuisines" id="cuisines">
+                    <option value="indian">Indian</option>
+                    <option value="chinese">Chinese</option>
+                    <option value="japanese">Japanese</option>
+                    <option value="mexican">Mexican</option>
+                    <option value="western">Western</option>
+                </select>
+            </div>
+
+            <div class="filter-div" id="filter-types">
+                <label for="types-label">Choose Type of Food:</label>
+                <select name="Types" id="types">
+                    <option value="main">Main</option>
+                    <option value="dessert">Dessert</option>
+                    <option value="drink">Drink</option>
+                    <option value="snack">Snack</option>
+                </select>
+            </div>
+
+            <button onclick="generateRandomFood()">Submit</button>
+            <div id="randomFood"></div>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>

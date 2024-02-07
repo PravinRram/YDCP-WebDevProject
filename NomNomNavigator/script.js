@@ -1,34 +1,68 @@
-const splash = document.querySelector('.splash');
+const chineseMain = ["Char Siu", "Chicken Rice", "Peking duck"];
+const chineseDrink = ["Yunnan Coffee", "Balck Tea", "Kombucha"];
+const chineseSnack = ["Bak Kwa", "Dumplings", "Spring Rolls"];
+const chineseDessert = ["Chendol", "Almond Jelly", "Mooncake"];
 
-document.addEventListener('DOMContentLoaded', (e)=>(
-    setTimeout(() => {
-        splash.classList.add('display-none');
-    }, '2000')
-))
+const indianMain = [];
+const indianDrink = [];
+const indianSnack = [];
+const indianDessert = [];
 
-function goToCategory() {
-    var selectedCategory = document.getElementById("category").value
+const japaneseMain = [];
+const japaneseDrink = [];
+const japaneseSnack = [];
+const japaneseDessert = [];
 
-    if (selectedCategory == "Dessert") {
-        window.location.href = "dessert.html"
+const mexicanMain = [];
+const mexicanDrink = [];
+const mexicanSnack = [];
+const mexicanDessert = [];
+
+const westernMain = [];
+const westernDrink = [];
+const westernSnack = [];
+const westernDessert = [];
+
+function generateRandomFood() {
+    const cuisine = document.getElementById("cuisines").value;
+    const foodType = document.getElementById("types").value;
+    let foodOptions;
+
+    switch (cuisine) {
+        case "chinese":
+            foodOptions = getFoodOptions(chineseMain, chineseDrink, chineseSnack, chineseDessert, foodType);
+            break;
+        case "indian":
+            foodOptions = getFoodOptions(indianMain, indianDrink, indianSnack, indianDessert, foodType);
+            break;
+        case "japanese":
+            foodOptions = getFoodOptions(japaneseMain, japaneseDrink, japaneseSnack, japaneseDessert, foodType);
+            break;
+        case "mexican":
+            foodOptions = getFoodOptions(mexicanMain, mexicanDrink, mexicanSnack, mexicanDessert, foodType);
+            break;
+        case "western":
+            foodOptions = getFoodOptions(westernMain, westernDrink, westernSnack, westernDessert, foodType);
+            break;
+        default:
+            foodOptions = [];
     }
 
-    // fill in the remaining options
+    const randomFood = foodOptions[Math.floor(Math.random() * foodOptions.length)];
+    document.getElementById("randomFood").innerText = `Random Food: ${randomFood}`;
 }
 
-function randomDessert() {
-    var randomNumber = Math.floor(Math.random() * 6)
-
-    if (randomNumber == 0) {
-        document.getElementById("randomName").innerHTML = "Cheesecake"
-        document.getElementById("randomRecipe").innerHTML = "Cheese, Biscuits"
-    }
-    else if (randomNumber == 1) {
-        document.getElementById("randomName").innerHTML = "Chendol"
-        document.getElementById("randomRecipe").innerHTML = "Jelly, Ice, Red Bean"
-    }
-    else {
-        document.getElementById("randomName").innerHTML = "Ice Cream"
-        document.getElementById("randomRecipe").innerHTML = "Milk, Chocolate"
+function getFoodOptions(main, drink, snack, dessert, foodType) {
+    switch (foodType) {
+        case "main":
+            return main;
+        case "drink":
+            return drink;
+        case "snack":
+            return snack;
+        case "dessert":
+            return dessert;
+        default:
+            return [];
     }
 }
