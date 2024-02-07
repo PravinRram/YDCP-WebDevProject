@@ -1,4 +1,4 @@
-const chineseMain = ["Char Siu", "Chicken Rice", "Peking duck"];
+const chineseMain = ["Char Siu Noodles", "Chicken Rice", "Peking duck"];
 const chineseDrink = ["Yunnan Coffee", "Black Tea", "Kombucha"];
 const chineseSnack = ["Bak Kwa", "Dumplings", "Spring Rolls"];
 const chineseDessert = ["Chendol", "Almond Jelly", "Mooncake"];
