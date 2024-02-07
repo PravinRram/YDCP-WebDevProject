@@ -52,15 +52,14 @@ function generateRandomFood() {
     }
 
     const randomFood = foodOptions[Math.floor(Math.random() * foodOptions.length)];
+    console.log(randomFood)
     document.getElementById("randomFood").innerText = `Random Food: ${randomFood}`;
 }
 
 function getFoodOptions(main, drink, snack, dessert, foodType) {
     switch (foodType) {
         case "all-types":
-            return main.concat(drink)
-            return main.concat(dessert)
-            return main.concat(snack)
+            return main.concat(drink).concat(dessert).concat(snack)
         case "main":
             return main;
         case "drink":
