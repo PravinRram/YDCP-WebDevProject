@@ -15,7 +15,7 @@ const japaneseDessert = ["Sakura Mochi", "Hokkaido Baked Cheese Tarts", "Raindro
 
 const mexicanMain = ["Tamale", "Burrito", "Quesadilla", "Enchiladas"];
 const mexicanDrink = ["Rompope", "Hibiscus Tea", "Carajillo"];
-const mexicanSnack = ["Nachos", "Tacos", "Avacado Salsa", "Chimichanga"];
+const mexicanSnack = ["Nachos", "Tacos", "Chimichanga"];
 const mexicanDessert = ["Mexican Hot Chocolate Pie", "Churros", "Flan Mexicano"];
 
 const westernMain = ["Meat Pie", "Steak", "Turkey", "Fish and Chips"];
