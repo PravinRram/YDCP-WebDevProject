@@ -57,6 +57,8 @@ function generateRandomFood() {
 
 function getFoodOptions(main, drink, snack, dessert, foodType) {
     switch (foodType) {
+        case "all-types":
+            return main,drink,snack,dessert;
         case "main":
             return main;
         case "drink":
