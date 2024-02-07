@@ -43,10 +43,10 @@ function generateRandomFood() {
             break;
         case "western":
             foodOptions = getFoodOptions(westernMain, westernDrink, westernSnack, westernDessert, foodType);
-            console.log(foodOptions)
             break;
         case "all-cuisines":
-            foodOptions = getFoodOptions(chineseMain, chineseDrink, chineseSnack, chineseDessert, indianMain, indianDrink, indianSnack, indianDessert, japaneseMain, japaneseDrink, japaneseSnack, japaneseDessert, mexicanMain, mexicanDrink, mexicanSnack, mexicanDessert, westernMain, westernDrink, westernSnack, westernDessert, foodType);
+            foodOptions = getFoodOptions(chineseMain).concat(chineseDrink).concat(chineseSnack).concat(chineseDessert).concat(indianMain).concat(indianDrink).concat(indianSnack).concat(indianDessert).concat(japaneseMain).concat(japaneseDrink).concat(japaneseSnack).concat(japaneseDessert).concat(mexicanMai).concat(mexicanDrink).concat(mexicanSnack).concat(mexicanDessert).concat(westernMain).concat(westernDrink).concat(westernSnack).concat(westernDessert).concat(foodType));
+            console.log(foodOptions)
             break;   
         default:
             foodOptions = [];
