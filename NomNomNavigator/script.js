@@ -1,5 +1,5 @@
 const chineseMain = ["Char Siu", "Chicken Rice", "Peking duck"];
-const chineseDrink = ["Yunnan Coffee", "Balck Tea", "Kombucha"];
+const chineseDrink = ["Yunnan Coffee", "Black Tea", "Kombucha"];
 const chineseSnack = ["Bak Kwa", "Dumplings", "Spring Rolls"];
 const chineseDessert = ["Chendol", "Almond Jelly", "Mooncake"];
 
@@ -13,10 +13,10 @@ const japaneseDrink = ["Amazake", "Sake", "Matcha", "Royal Milk Tea"];
 const japaneseSnack = ["Onigiri", "Caramel Corn", "Pocky", "Rice Crackers"];
 const japaneseDessert = ["Sakura Mochi", "Hokkaido Baked Cheese Tarts", "Raindrop Cake", "Purin"];
 
-const mexicanMain = [];
-const mexicanDrink = [];
-const mexicanSnack = [];
-const mexicanDessert = [];
+const mexicanMain = ["Tamale", "Burrito", "Quesadilla", "Enchiladas"];
+const mexicanDrink = ["Rompope", "Hibiscus Tea", "Carajillo"];
+const mexicanSnack = ["Nachos", "Tacos", "Avacado Salsa", "chimichanga"];
+const mexicanDessert = ["Mexican Hot Chocolate Pie", "Churros", "Flan Mexicano"];
 
 const westernMain = [];
 const westernDrink = [];
