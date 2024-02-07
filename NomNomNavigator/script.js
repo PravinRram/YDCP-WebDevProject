@@ -3,13 +3,13 @@ const chineseDrink = ["Yunnan Coffee", "Balck Tea", "Kombucha"];
 const chineseSnack = ["Bak Kwa", "Dumplings", "Spring Rolls"];
 const chineseDessert = ["Chendol", "Almond Jelly", "Mooncake"];
 
-const indianMain = [];
-const indianDrink = [];
-const indianSnack = [];
-const indianDessert = [];
+const indianMain = ["Butter Chicken", "Chicken Biryani", "Masala Dosa", "Paneer Masala"];
+const indianDrink = ["Mango Lassi", "Buttermilk", "Chai", "Badam Milk"];
+const indianSnack = ["Samosa", "Murukku", "Pakora", "Dhokla"];
+const indianDessert = ["Gulab Jamun", "Rasmalai", "Kulfi"];
 
-const japaneseMain = [];
-const japaneseDrink = [];
+const japaneseMain = ["Ramen", "Teriyaki Chicken Rice", "Udon", "Katsu"];
+const japaneseDrink = ["Sakura Mochi", "Hokkaido Baked Cheese Tarts"];
 const japaneseSnack = [];
 const japaneseDessert = [];
 
