@@ -43,6 +43,7 @@ function generateRandomFood() {
             break;
         case "western":
             foodOptions = getFoodOptions(westernMain, westernDrink, westernSnack, westernDessert, foodType);
+            console.log(foodOptions)
             break;
         case "all-cuisines":
             foodOptions = getFoodOptions(chineseMain, chineseDrink, chineseSnack, chineseDessert, indianMain, indianDrink, indianSnack, indianDessert, japaneseMain, japaneseDrink, japaneseSnack, japaneseDessert, mexicanMain, mexicanDrink, mexicanSnack, mexicanDessert, westernMain, westernDrink, westernSnack, westernDessert, foodType);
@@ -52,7 +53,7 @@ function generateRandomFood() {
     }
 
     const randomFood = foodOptions[Math.floor(Math.random() * foodOptions.length)];
-    console.log(randomFood)
+   
     document.getElementById("randomFood").innerText = `Random Food: ${randomFood}`;
 }
 
