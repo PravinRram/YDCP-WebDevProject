@@ -10,13 +10,22 @@
 
     <body>
         <header>
-            <a href="home.html" class="logo">NomNomNavigator</a>
+            <div class="logo-container">
+                <img id="header-logo" src="NNNlogo.png">
+                <a href="home.html" class="logo">NomNomNavigator</a>
+            </div>
             <div class="header-right">
-                <a class="active-tab" href="home.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="feedback.html">Feedback</a>
+                <a class="header-button active-tab" href="home.html">Home</a>
+                <a class="header-button" href="about.html">About</a>
+                <a class="header-button" href="feedback.html">Feedback</a>
             </div>
         </header>
+
+        <div id="randomFoodCard" class="food-card">
+            <img id="randomFoodImg" src="">
+            <h2 id="randomFoodName"></h2>
+            <p id="randomFoodDescription"></p>
+        </div>
 
         <div class="filter-container">
             <div class="filter-div" id="filter-cuisines">
@@ -44,7 +53,6 @@
             </div>
 
             <button onclick="generateRandomFood()">Submit</button>
-            <div id="randomFood"></div>
         </div>
         <script src="script.js"></script>
     </body>
