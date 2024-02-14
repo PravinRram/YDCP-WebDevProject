@@ -110,6 +110,7 @@ body {
     margin: auto;
     height: auto;
     border: #efe2fd 2px solid;
+    text-align: center;
 }
 
 #randomFoodImg {
