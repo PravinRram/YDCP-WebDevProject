@@ -1,118 +1,118 @@
 const chineseMain = [
-    { name: "Char Siu", description: "test", imageSrc: "" }, 
-    { name: "Chicken Rice", description: "test", imageSrc: "" }, 
-    { name: "Peking Duck", description: "test", imageSrc: "" }
+    { name: "Char Siu", description: "test", imageSrc: "", ytLink: "" }, 
+    { name: "Chicken Rice", description: "test", imageSrc: "", ytLink: "" }, 
+    { name: "Peking Duck", description: "test", imageSrc: "", ytLink: "" }
 ];
 const chineseDrink = [
-    { name: "Yunnan Coffee", description: "test", imageSrc: "" }, 
-    { name: "Black Tea", description: "test", imageSrc: "" }, 
-    { name: "Kombucha", description: "test", imageSrc: "" }
+    { name: "Yunnan Coffee", description: "test", imageSrc: "", ytLink: "" }, 
+    { name: "Black Tea", description: "test", imageSrc: "", ytLink: "" }, 
+    { name: "Kombucha", description: "test", imageSrc: "", ytLink: "" }
 ];
 const chineseSnack = [
-    { name: "Bak Kwa", description: "test", imageSrc: "" }, 
-    { name: "Dumplings", description: "test", imageSrc: "" }, 
-    { name: "Spring Rolls", description: "test", imageSrc: "" }
+    { name: "Bak Kwa", description: "test", imageSrc: "", ytLink: "" }, 
+    { name: "Dumplings", description: "test", imageSrc: "", ytLink: "" }, 
+    { name: "Spring Rolls", description: "test", imageSrc: "", ytLink: "" }
 ];
 const chineseDessert = [
-    { name: "Chendol", description: "test", imageSrc: "" }, 
-    { name: "Almond Jelly", description: "test", imageSrc: "" }, 
-    { name: "Mooncake", description: "test", imageSrc: "" }
+    { name: "Chendol", description: "test", imageSrc: "", ytLink: "" }, 
+    { name: "Almond Jelly", description: "test", imageSrc: "", ytLink: "" }, 
+    { name: "Mooncake", description: "test", imageSrc: "", ytLink: "" }
 ];
 
 const indianMain = [
-    { name: "Butter Chicken", description: "test", imageSrc: "" },
-    { name: "Chicken Biryani", description: "test", imageSrc: "" },
-    { name: "Masala Dosa", description: "test", imageSrc: "" },
-    { name: "Paneer Masala", description: "test", imageSrc: "" }
+    { name: "Butter Chicken", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Chicken Biryani", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Masala Dosa", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Paneer Masala", description: "test", imageSrc: "", ytLink: "" }
 ];
 const indianDrink = [
-    { name: "Mango Lassi", description: "test", imageSrc: "" },
-    { name: "Buttermilk", description: "test", imageSrc: "" },
-    { name: "Chai", description: "test", imageSrc: "" },
-    { name: "Badam Milk", description: "test", imageSrc: "" }
+    { name: "Mango Lassi", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Buttermilk", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Chai", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Badam Milk", description: "test", imageSrc: "", ytLink: "" }
 ];
 const indianSnack = [
-    { name: "Samosa", description: "test", imageSrc: "" },
-    { name: "Murukku", description: "test", imageSrc: "" },
-    { name: "Pakora", description: "test", imageSrc: "" },
-    { name: "Dhokla", description: "test", imageSrc: "" }
+    { name: "Samosa", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Murukku", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Pakora", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Dhokla", description: "test", imageSrc: "", ytLink: "" }
 ];
 const indianDessert = [
-    { name: "Gulab Jamun", description: "test", imageSrc: "" },
-    { name: "Rasmalai", description: "test", imageSrc: "" },
-    { name: "Kulfi", description: "test", imageSrc: "" }
+    { name: "Gulab Jamun", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Rasmalai", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Kulfi", description: "test", imageSrc: "", ytLink: "" }
 ];
 
 const japaneseMain = [
-    { name: "Ramen", description: "test", imageSrc: "" },
-    { name: "Teriyaki Chicken Rice", description: "test", imageSrc: "" },
-    { name: "Udon", description: "test", imageSrc: "" },
-    { name: "Katsu", description: "test", imageSrc: "" }
+    { name: "Ramen", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Teriyaki Chicken Rice", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Udon", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Katsu", description: "test", imageSrc: "", ytLink: "" }
 ];
 const japaneseDrink = [
-    { name: "Amazake", description: "test", imageSrc: "" },
-    { name: "Sake", description: "test", imageSrc: "" },
-    { name: "Matcha", description: "test", imageSrc: "" },
-    { name: "Royal Milk Tea", description: "test", imageSrc: "" }
+    { name: "Amazake", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Sake", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Matcha", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Royal Milk Tea", description: "test", imageSrc: "", ytLink: "" }
 ];
 const japaneseSnack = [
-    { name: "Onigiri", description: "test", imageSrc: "" },
-    { name: "Caramel Corn", description: "test", imageSrc: "" },
-    { name: "Pocky", description: "test", imageSrc: "" },
-    { name: "Rice Crackers", description: "test", imageSrc: "" }
+    { name: "Onigiri", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Caramel Corn", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Pocky", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Rice Crackers", description: "test", imageSrc: "", ytLink: "" }
 ];
 const japaneseDessert = [
-    { name: "Sakura Mochi", description: "test", imageSrc: "" },
-    { name: "Hokkaido Baked Cheese Tarts", description: "test", imageSrc: "" },
-    { name: "Raindrop Cake", description: "test", imageSrc: "" },
-    { name: "Purin", description: "test", imageSrc: "" }
+    { name: "Sakura Mochi", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Hokkaido Baked Cheese Tarts", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Raindrop Cake", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Purin", description: "test", imageSrc: "", ytLink: "" }
 ];
 
 const mexicanMain = [
-    { name: "Tamale", description: "test", imageSrc: "" },
-    { name: "Burrito", description: "test", imageSrc: "" },
-    { name: "Quesadilla", description: "test", imageSrc: "" },
-    { name: "Enchiladas", description: "test", imageSrc: "" }
+    { name: "Tamale", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Burrito", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Quesadilla", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Enchiladas", description: "test", imageSrc: "", ytLink: "" }
 ];
 const mexicanDrink = [
-    { name: "Rompope", description: "test", imageSrc: "" },
-    { name: "Hibiscus Tea", description: "test", imageSrc: "" },
-    { name: "Carajillo", description: "test", imageSrc: "" }
+    { name: "Rompope", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Hibiscus Tea", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Carajillo", description: "test", imageSrc: "", ytLink: "" }
 ];
 const mexicanSnack = [
-    { name: "Nachos", description: "test", imageSrc: "" },
-    { name: "Tacos", description: "test", imageSrc: "" },
-    { name: "Avacado Salsa", description: "test", imageSrc: "" },
-    { name: "Chimichanga", description: "test", imageSrc: "" } 
+    { name: "Nachos", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Tacos", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Avacado Salsa", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Chimichanga", description: "test", imageSrc: "", ytLink: "" } 
 ];
 const mexicanDessert = [
-    { name: "Mexican Hot Chocolate Pie", description: "test", imageSrc: "" },
-    { name: "Churros", description: "test", imageSrc: "" },
-    { name: "Flan Mexicano", description: "test", imageSrc: "" }
+    { name: "Mexican Hot Chocolate Pie", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Churros", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Flan Mexicano", description: "test", imageSrc: "", ytLink: "" }
 ];
 
 const westernMain = [
-    { name: "Meat Pie", description: "test", imageSrc: "" },
-    { name: "Steak", description: "test", imageSrc: "" },
-    { name: "Turkey", description: "test", imageSrc: "" },
-    { name: "Fish and Chips", description: "test", imageSrc: "" }
+    { name: "Meat Pie", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Steak", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Turkey", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Fish and Chips", description: "test", imageSrc: "", ytLink: "" }
 ];
 const westernDrink = [
-    { name: "Hot Chocolate", description: "test", imageSrc: "" },
-    { name: "Lemonade", description: "test", imageSrc: "" },
-    { name: "Root Beer", description: "test", imageSrc: "" }
+    { name: "Hot Chocolate", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Lemonade", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Root Beer", description: "test", imageSrc: "", ytLink: "" }
 ];
 const westernSnack = [
-    { name: "Salad", description: "test", imageSrc: "" },
-    { name: "Maple Pancakes", description: "test", imageSrc: "" },
-    { name: "French Fries", description: "test", imageSrc: "" }
+    { name: "Salad", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Maple Pancakes", description: "test", imageSrc: "", ytLink: "" },
+    { name: "French Fries", description: "test", imageSrc: "", ytLink: "" }
 ];
 const westernDessert = [
-    { name: "Chocolate Lava Cake", description: "test", imageSrc: "" },
-    { name: "Tiramisu", description: "test", imageSrc: "" },
-    { name: "Cinnamon Rolls", description: "test", imageSrc: "" },
-    { name: "Donuts", description: "test", imageSrc: "" },
-    { name: "Gingerbread Cookies", description: "test", imageSrc: "" }
+    { name: "Chocolate Lava Cake", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Tiramisu", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Cinnamon Rolls", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Donuts", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Gingerbread Cookies", description: "test", imageSrc: "", ytLink: "" }
 ];
 
 function generateRandomFood() {
