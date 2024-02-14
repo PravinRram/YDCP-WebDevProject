@@ -52,7 +52,7 @@ const japaneseMain = [
 const japaneseDrink = [
     { name: "Amazake", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Amazake.jpeg", ytLink: "" },
     { name: "Sake", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Sake.webp", ytLink: "" },
-    { name: "Matcha", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Matcha.jpeg", ytLink: "" },
+    { name: "Matcha Green Tea", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Matcha.jpeg", ytLink: "" },
     { name: "Royal Milk Tea", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/RoyalMilkTea.webp", ytLink: "" }
 ];
 const japaneseSnack = [
