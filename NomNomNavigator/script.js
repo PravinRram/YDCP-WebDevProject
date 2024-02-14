@@ -1,7 +1,8 @@
 const chineseMain = [
-    { name: "Char Siu", description: "test", imageSrc: "", ytLink: "" }, 
+    { name: "Char Siu Noodles", description: "test", imageSrc: "", ytLink: "" }, 
     { name: "Chicken Rice", description: "test", imageSrc: "", ytLink: "" }, 
-    { name: "Peking Duck", description: "test", imageSrc: "", ytLink: "" }
+    { name: "Peking Duck", description: "test", imageSrc: "", ytLink: "" },
+    { name: "Chicken Rice", description: "test", imageSrc: "", ytLink: "" }
 ];
 const chineseDrink = [
     { name: "Yunnan Coffee", description: "test", imageSrc: "", ytLink: "" }, 
@@ -82,7 +83,6 @@ const mexicanDrink = [
 const mexicanSnack = [
     { name: "Nachos", description: "test", imageSrc: "", ytLink: "" },
     { name: "Tacos", description: "test", imageSrc: "", ytLink: "" },
-    { name: "Avacado Salsa", description: "test", imageSrc: "", ytLink: "" },
     { name: "Chimichanga", description: "test", imageSrc: "", ytLink: "" } 
 ];
 const mexicanDessert = [
