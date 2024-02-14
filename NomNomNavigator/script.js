@@ -1,6 +1,6 @@
 const chineseMain = [
-    { name: "Char Siu Noodles", description: "test", imageSrc: "", ytLink: "" }, 
-    { name: "Chicken Rice", description: "test", imageSrc: "", ytLink: "" }, 
+    { name: "Char Siu Noodles", description: "test", imageSrc: "NomNomNavigator/images/CharSiuNoodles.jpeg", ytLink: "" }, 
+    { name: "Chicken Rice", description: "test", imageSrc: "NomNomNavigator/images/ChickenRice.jpeg", ytLink: "" }, 
     { name: "Peking Duck", description: "test", imageSrc: "", ytLink: "" },
     { name: "Chicken Rice", description: "test", imageSrc: "", ytLink: "" }
 ];
