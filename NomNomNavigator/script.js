@@ -80,12 +80,12 @@ const mexicanDrink = [
     { name: "Carajillo", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Carajillo.webp", ytLink: "" }
 ];
 const mexicanSnack = [
-    { name: "Nachos", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/BadamMilk.jpeg", ytLink: "" },
-    { name: "Tacos", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/BadamMilk.jpeg", ytLink: "" },
-    { name: "Chimichanga", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/BadamMilk.jpeg", ytLink: "" } 
+    { name: "Nachos", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Nachos.jpeg", ytLink: "" },
+    { name: "Tacos", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Taco.jpeg", ytLink: "" },
+    { name: "Chimichanga", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Chimichanga.jpeg", ytLink: "" } 
 ];
 const mexicanDessert = [
-    { name: "Mexican Hot Chocolate Pie", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Nachos.jpeg", ytLink: "" },
+    { name: "Mexican Hot Chocolate Pie", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MexicanHotChocolatePie.jpeg", ytLink: "" },
     { name: "Churros", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Churros.webp", ytLink: "" },
     { name: "Flan Mexicano", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/FlanMexicano.jpeg", ytLink: "" }
 ];
