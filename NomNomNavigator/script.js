@@ -2,7 +2,7 @@ const chineseMain = [
     { name: "Char Siu Noodles", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/CharSiuNoodles.jpeg", ytLink: "" }, 
     { name: "Chicken Rice", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChickenRice.jpeg", ytLink: "" }, 
     { name: "Peking Duck", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/PekingDuck.jpeg", ytLink: "" },
-    { name: "Peking Duck", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChineseEggplantSalad.jpeg", ytLink: "" }
+    { name: "Chinese Eggplant Salad", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChineseEggplantSalad.jpeg", ytLink: "" }
 ];
 const chineseDrink = [
     { name: "Yunnan Coffee", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/YunnanCoffee.webp", ytLink: "" }, 
