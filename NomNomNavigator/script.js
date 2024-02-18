@@ -134,10 +134,10 @@ function generateRandomFood() {
         case "western":
             foodOptions = getFoodOptions(westernMain, westernDrink, westernSnack, westernDessert, foodType);
             break;
-        case "all-cuisines":
+/*        case "all-cuisines":
             foodOptions = getFoodOptions(chineseMain).concat(chineseDrink).concat(chineseSnack).concat(chineseDessert).concat(indianMain).concat(indianDrink).concat(indianSnack).concat(indianDessert).concat(japaneseMain).concat(japaneseDrink).concat(japaneseSnack).concat(japaneseDessert).concat(mexicanMain).concat(mexicanDrink).concat(mexicanSnack).concat(mexicanDessert).concat(westernMain).concat(westernDrink).concat(westernSnack).concat(westernDessert).concat(foodType);
             console.log(foodOptions);
-            break;
+            break;  */
         default:
             foodOptions = [];
     }
@@ -147,12 +147,13 @@ function generateRandomFood() {
     document.getElementById("randomFoodName").innerText = randomFood.name;
     document.getElementById("randomFoodDescription").innerText = randomFood.description;
     document.getElementById("randomFoodImg").src = randomFood.imageSrc;
+    document.getElementById("randomFoodVideo").href = randomFood.ytLink;
 }
 
 function getFoodOptions(main, drink, snack, dessert, foodType) {
     switch (foodType) {
-        case "all-types":
-            return main.concat(drink).concat(dessert).concat(snack)
+/*       case "all-types":
+            return main.concat(drink).concat(dessert).concat(snack)  */
         case "main":
             return main;
         case "drink":
