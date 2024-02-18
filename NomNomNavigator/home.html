@@ -25,27 +25,29 @@
             <img id="randomFoodImg" src="">
             <h2 id="randomFoodName"></h2>
             <p id="randomFoodDescription"></p>
-            <button id="randomFoodVideo" href="">Video Recipe</button>
+            <div id="video-container">
+                <img id="yt-img" src="yt-recipe.png">
+                <button id="randomFoodVideo" href="">Video Recipe</button>
+            </div>
         </div>
 
         <div class="filter-container">
             <div class="filter-div" id="filter-cuisines">
-                <label for="cuisines-label">Choose Cuisine:</label>
+                <label for="cuisines-label">Cuisine:</label>
                 <select name="Cuisines" id="cuisines">
-<!--                <option value="all-cuisines">All</option>   -->
+                    <!--<option value="all-cuisines">All</option>-->
                     <option value="indian">Indian</option>
                     <option value="chinese">Chinese</option>
                     <option value="japanese">Japanese</option>
                     <option value="mexican">Mexican</option>
                     <option value="western">Western</option>
-
                 </select>
             </div>
 
             <div class="filter-div" id="filter-types">
-                <label for="types-label">Choose Type of Food:</label>
+                <label for="types-label">Food Type:</label>
                 <select name="Types" id="types">
-<!--                <option value="all-types">All</option>    -->
+                    <!--<option value="all-types">All</option>-->
                     <option value="main">Main</option>
                     <option value="dessert">Dessert</option>
                     <option value="drink">Drink</option>
@@ -54,14 +56,16 @@
             </div>
         </div>
 
-        <button onclick="generateRandomFood()">Submit</button>
-
-        <div class="click-to-other-pages" id="click-to-about">
-            <img src="about_gradient.png">
+        <div class="generate-container">
+            <button id="generate-button" onclick="generateRandomFood()">Generate</button>
         </div>
 
         <div class="click-to-other-pages" id="click-to-about">
-            <img src="feedback_gradient.png">
+            <img class="some-gradient" src="about_gradient.png">
+        </div>
+
+        <div class="click-to-other-pages" id="click-to-feedback">
+            <img class="some-gradient" src="feedback_gradient.png">
         </div>
 
         <footer class="footer">
