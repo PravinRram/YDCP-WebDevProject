@@ -21,8 +21,8 @@ const chineseDessert = [
 
 const indianMain = [
     { name: "Butter Chicken", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ButterChicken.webp", ytLink: "" },
-    { name: "Chicken Biryani", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChickenBiriyani.jpeg", ytLink: "" },
-    { name: "Masala Dosa", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MasalaDosa.jpeg", ytLink: "" },
+    { name: "Chicken Biryani", description: "A flavourful Indian dish made with aromatic basmati rice, tender chicken, and a blend of spices.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChickenBiriyani.jpeg", ytLink: "" },
+    { name: "Masala Dosa", description: " A South Indian specialty consisting of a thin, crispy crepe made from fermented rice and lentil batter, filled with a spiced potato mixture.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MasalaDosa.jpeg", ytLink: "" },
     { name: "Paneer Masala", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/PaneerMasala.jpeg", ytLink: "" }
 ];
 const indianDrink = [
@@ -51,9 +51,9 @@ const japaneseMain = [
 ];
 const japaneseDrink = [
     { name: "Amazake", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Amazake.jpeg", ytLink: "" },
-    { name: "Sake", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Sake.webp", ytLink: "" },
-    { name: "Matcha Green Tea", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Matcha.jpeg", ytLink: "" },
-    { name: "Royal Milk Tea", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/RoyalMilkTea.webp", ytLink: "" }
+    { name: "Sake", description: "A Japanese rice wine with a diverse range of flavors and aromas, often served chilled or warmed.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Sake.webp", ytLink: "" },
+    { name: "Matcha Green Tea", description: "", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Matcha.jpeg", ytLink: "" },
+    { name: "Royal Milk Tea", description: "A popular Japanese beverage made by blending black tea with milk and sweetening it with sugar or honey.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/RoyalMilkTea.webp", ytLink: "" }
 ];
 const japaneseSnack = [
     { name: "Onigiri", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Onigiri.jpeg", ytLink: "" },
@@ -63,9 +63,9 @@ const japaneseSnack = [
 ];
 const japaneseDessert = [
     { name: "Sakura Mochi", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/SakuraMochi.jpeg", ytLink: "" },
-    { name: "Hokkaido Baked Cheese Tarts", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Tart.jpeg", ytLink: "" },
-    { name: "Raindrop Cake", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/RaindropCake.jpeg", ytLink: "" },
-    { name: "Purin", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Purin.jpeg", ytLink: "" }
+    { name: "Hokkaido Baked Cheese Tarts", description: "Flaky pastry filled with a creamy and velvety cheese mixture, originating from Hokkaido, Japan.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Tart.jpeg", ytLink: "" },
+    { name: "Raindrop Cake", description: "A translucent and gelatinous dessert from Japan resembling a droplet of water, often served with sweet syrup and roasted soybean flour.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/RaindropCake.jpeg", ytLink: "" },
+    { name: "Purin", description: "A silky and creamy Japanese custard pudding with a caramel sauce topping.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Purin.jpeg", ytLink: "" }
 ];
 
 const mexicanMain = [
@@ -75,9 +75,9 @@ const mexicanMain = [
     { name: "Enchiladas", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Enchiladas.webp", ytLink: "" }
 ];
 const mexicanDrink = [
-    { name: "Rompope", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Rompope.webp", ytLink: "" },
+    { name: "Rompope", description: "A Mexican version of eggnog, featuring a rich and creamy drink made with milk, sugar, eggs, and flavored with vanilla and spices.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Rompope.webp", ytLink: "" },
     { name: "Hibiscus Tea", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/HibiscusTea.jpeg", ytLink: "" },
-    { name: "Carajillo", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Carajillo.webp", ytLink: "" }
+    { name: "Carajillo", description: "A Spanish cocktail made with espresso and either brandy, rum, or whiskey, often served over ice.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Carajillo.webp", ytLink: "" }
 ];
 const mexicanSnack = [
     { name: "Nachos", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Nachos.jpeg", ytLink: "" },
@@ -98,7 +98,7 @@ const westernMain = [
 ];
 const westernDrink = [
     { name: "Hot Chocolate", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/HotChocolate.jpeg", ytLink: "" },
-    { name: "Lemonade", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Lemonade.jpeg", ytLink: "" },
+    { name: "Lemonade", description: "A refreshing beverage made from freshly squeezed lemon juice, water, and sugar, served over ice.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Lemonade.jpeg", ytLink: "" },
     { name: "Root Beer", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/RootBeer.webp", ytLink: "" }
 ];
 const westernSnack = [
@@ -106,7 +106,7 @@ const westernSnack = [
     { name: "Maple Pancakes", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MaplePancakes.jpeg", ytLink: "" },
 ];
 const westernDessert = [
-    { name: "Chocolate Lava Cake", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChocolateLavaCake.jpeg", ytLink: "" },
+    { name: "Chocolate Lava Cake", description: "A decadent dessert featuring a rich chocolate cake with a gooey, molten chocolate center.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChocolateLavaCake.jpeg", ytLink: "" },
     { name: "Tiramisu", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Tiramisu.jpeg", ytLink: "" },
     { name: "Cinnamon Rolls", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/CinnamonRolls.webp", ytLink: "" },
     { name: "Donuts", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Donuts.jpeg", ytLink: "" },
