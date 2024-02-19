@@ -16,14 +16,14 @@ const chineseSnack = [
 ];
 const chineseDessert = [
     { name: "Chendol", description: "A Southeast Asian dessert consisting of green rice-flour jelly, coconut milk, palm sugar syrup, and sometimes red beans and shaved ice.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Chendol.jpeg", ytLink: "" }, 
-    { name: "Mooncake", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MoonCake.jpeg", ytLink: "" }
+    { name: "Mooncake", description: "A traditional Chinese pastry usually eaten during the Mid-Autumn Festival, filled with sweet lotus seed paste or red bean paste and often containing salted egg yolk, symbolizing unity and completeness.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MoonCake.jpeg", ytLink: "" }
 ];
 
 const indianMain = [
     { name: "Butter Chicken", description: "A creamy and mildly spiced Indian curry dish made with tender chicken pieces simmered in a rich tomato and butter sauce.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ButterChicken.webp", ytLink: "" },
     { name: "Chicken Biryani", description: "A flavourful Indian dish made with aromatic basmati rice, tender chicken, and a blend of spices.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChickenBiriyani.jpeg", ytLink: "" },
     { name: "Masala Dosa", description: " A South Indian specialty consisting of a thin, crispy crepe made from fermented rice and lentil batter, filled with a spiced potato mixture.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MasalaDosa.jpeg", ytLink: "" },
-    { name: "Paneer Masala", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/PaneerMasala.jpeg", ytLink: "" }
+    { name: "Paneer Masala", description: "A popular Indian dish featuring cubes of paneer (Indian cottage cheese) cooked in a rich and flavorful tomato-based gravy, infused with aromatic spices like cumin, coriander, and garam masala.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/PaneerMasala.jpeg", ytLink: "" }
 ];
 const indianDrink = [
     { name: "Mango Lassi", description: "A popular Indian drink made from ripe mangoes, yogurt, milk, and sugar, blended into a smooth and creamy concoction.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MangoLassi.jpeg", ytLink: "" },
@@ -50,7 +50,7 @@ const japaneseMain = [
     { name: "Katsu", description: "A Japanese dish consisting of breaded and deep-fried cutlets of meat, typically pork or chicken.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Katsu.jpeg", ytLink: "" }
 ];
 const japaneseDrink = [
-    { name: "Amazake", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Amazake.jpeg", ytLink: "" },
+    { name: "Amazake", description: "A sweet wine known for its delicate and luscious flavors, often enjoyed as a dessert accompaniment or standalone indulgence.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Amazake.jpeg", ytLink: "" },
     { name: "Sake", description: "A Japanese rice wine with a diverse range of flavors and aromas, often served chilled or warmed.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Sake.webp", ytLink: "" },
     { name: "Matcha Green Tea", description: "A traditional Japanese beverage crafted from shade-grown green tea leaves, meticulously ground into a vibrant green powder, celebrated for its rich umami flavor, potent antioxidants, and calming effects.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Matcha.jpeg", ytLink: "" },
     { name: "Royal Milk Tea", description: "A popular Japanese beverage made by blending black tea with milk and sweetening it with sugar or honey.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/RoyalMilkTea.webp", ytLink: "" }
@@ -77,7 +77,7 @@ const mexicanMain = [
 const mexicanDrink = [
     { name: "Rompope", description: "A Mexican version of eggnog, featuring a rich and creamy drink made with milk, sugar, eggs, and flavored with vanilla and spices.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Rompope.webp", ytLink: "" },
     { name: "Hibiscus Tea", description: "A herbal tea made from the dried calyces of the hibiscus flower, known for its vibrant red color and tart flavor.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/HibiscusTea.jpeg", ytLink: "" },
-    { name: "Carajillo", description: "A Spanish cocktail made with espresso and either brandy, rum, or whiskey, often served over ice.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Carajillo.webp", ytLink: "" }
+    { name: "Carajillo", description: "A historic cocktail of Spanish-origin that is made with espresso and either brandy, rum, or whiskey, often served over ice.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Carajillo.webp", ytLink: "" }
 ];
 const mexicanSnack = [
     { name: "Nachos", description: "A popular Tex-Mex dish featuring tortilla chips topped with melted cheese and often additional toppings such as salsa, guacamole, and sour cream.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Nachos.jpeg", ytLink: "" },
