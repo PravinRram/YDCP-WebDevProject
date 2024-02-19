@@ -1,8 +1,8 @@
 const chineseMain = [
-    { name: "Char Siu Noodles", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/CharSiuNoodles.jpeg", ytLink: "" }, 
-    { name: "Chicken Rice", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChickenRice.jpeg", ytLink: "" }, 
-    { name: "Peking Duck", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/PekingDuck.jpeg", ytLink: "" },
-    { name: "Chinese Eggplant Salad", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChineseEggplantSalad.jpeg", ytLink: "" }
+    { name: "Char Siu Noodles", description: "A popular Cantonese dish featuring savory roasted pork served atop springy egg noodles, typically seasoned with a sweet and savory char siu sauce.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/CharSiuNoodles.jpeg", ytLink: "" }, 
+    { name: "Chicken Rice", description: "A simple yet flavorful Asian dish featuring poached or roasted chicken served with seasoned rice, often accompanied by chili sauce and cucumber slices.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChickenRice.jpeg", ytLink: "" }, 
+    { name: "Peking Duck", description: "A famous Chinese dish featuring crispy roasted duck served with pancakes, hoisin sauce, and sliced scallions.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/PekingDuck.jpeg", ytLink: "" },
+    { name: "Chinese Eggplant Salad", description: "A cold dish featuring thinly sliced eggplant marinated in a flavorful dressing of soy sauce, vinegar, garlic, and chili oil, popular in Chinese cuisine.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChineseEggplantSalad.jpeg", ytLink: "" }
 ];
 const chineseDrink = [
     { name: "Yunnan Coffee", description: "Coffee grown in the Yunnan province of China, known for its smooth and slightly fruity flavor profile.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/YunnanCoffee.webp", ytLink: "" }, 
@@ -10,9 +10,9 @@ const chineseDrink = [
     { name: "Kombucha", description: "A fermented tea beverage known for its tangy flavor and potential health benefits due to its probiotic content.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/BlackTea.jpeg", ytLink: "" }
 ];
 const chineseSnack = [
-    { name: "Bak Kwa", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/BakKwa.jpeg", ytLink: "" }, 
-    { name: "Dumplings", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Dumpling.jpeg", ytLink: "" }, 
-    { name: "Spring Rolls", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/SpringRoll.jpeg", ytLink: "" }
+    { name: "Bak Kwa", description: "A Chinese-style jerky made from thinly sliced pieces of marinated pork, often sweet and savory in flavor.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/BakKwa.jpeg", ytLink: "" }, 
+    { name: "Dumplings", description: "Small pockets of dough filled with various ingredients such as meat, vegetables, or seafood, commonly steamed, boiled, or fried in many cuisines worldwide.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Dumpling.jpeg", ytLink: "" }, 
+    { name: "Spring Rolls", description: "A popular Asian appetizer consisting of thinly wrapped rolls filled with vegetables, meat, and sometimes noodles, typically deep-fried until crispy.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/SpringRoll.jpeg", ytLink: "" }
 ];
 const chineseDessert = [
     { name: "Chendol", description: "A Southeast Asian dessert consisting of green rice-flour jelly, coconut milk, palm sugar syrup, and sometimes red beans and shaved ice.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Chendol.jpeg", ytLink: "" }, 
@@ -20,7 +20,7 @@ const chineseDessert = [
 ];
 
 const indianMain = [
-    { name: "Butter Chicken", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ButterChicken.webp", ytLink: "" },
+    { name: "Butter Chicken", description: "A creamy and mildly spiced Indian curry dish made with tender chicken pieces simmered in a rich tomato and butter sauce.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ButterChicken.webp", ytLink: "" },
     { name: "Chicken Biryani", description: "A flavourful Indian dish made with aromatic basmati rice, tender chicken, and a blend of spices.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChickenBiriyani.jpeg", ytLink: "" },
     { name: "Masala Dosa", description: " A South Indian specialty consisting of a thin, crispy crepe made from fermented rice and lentil batter, filled with a spiced potato mixture.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MasalaDosa.jpeg", ytLink: "" },
     { name: "Paneer Masala", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/PaneerMasala.jpeg", ytLink: "" }
@@ -32,10 +32,10 @@ const indianDrink = [
     { name: "Badam Milk", description: "A creamy Indian beverage made from milk infused with ground almonds, flavored with saffron and cardamom.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/BadamMilk.jpeg", ytLink: "" }
 ];
 const indianSnack = [
-    { name: "Samosa", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Samosa.webp", ytLink: "" },
-    { name: "Murukku", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Murukku.jpeg", ytLink: "" },
-    { name: "Pakora", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Pakora.jpeg", ytLink: "" },
-    { name: "Dhokla", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Dhokla.webp", ytLink: "" }
+    { name: "Samosa", description: "A popular Indian snack consisting of a crispy pastry shell filled with spiced potatoes, peas, and sometimes meat, deep-fried until golden brown.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Samosa.webp", ytLink: "" },
+    { name: "Murukku", description: "A crunchy South Indian snack made from rice flour and urad dal flour, seasoned with spices and deep-fried.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Murukku.jpeg", ytLink: "" },
+    { name: "Pakora", description: "Deep-fried fritters made from vegetables such as potatoes, onions, or spinach, coated in seasoned chickpea flour batter, popular in Indian cuisine.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Pakora.jpeg", ytLink: "" },
+    { name: "Dhokla", description: "A savory Indian snack made from fermented rice and chickpea flour, steamed into a fluffy cake-like texture and typically served with chutney.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Dhokla.webp", ytLink: "" }
 ];
 const indianDessert = [
     { name: "Gulab Jamun", description: "A popular Indian dessert made from deep-fried dough balls soaked in a sugary syrup, often flavored with cardamom and rose water.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/GulabJamun.jpeg", ytLink: "" },
@@ -57,12 +57,12 @@ const japaneseDrink = [
 ];
 const japaneseSnack = [
     { name: "Onigiri", description: "Japanese rice balls often filled with savory ingredients such as pickled plum, salmon, or tuna, and wrapped in seaweed.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Onigiri.jpeg", ytLink: "" },
-    { name: "Caramel Corn", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/CaramelCorn.png", ytLink: "" },
+    { name: "Caramel Corn", description: "Popcorn coated in a sweet caramel glaze, often enjoyed as a snack or dessert.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/CaramelCorn.png", ytLink: "" },
     { name: "Pocky", description: "A popular Japanese snack consisting of biscuit sticks dipped in chocolate or other flavored coatings.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Pocky.jpeg", ytLink: "" },
-    { name: "Rice Crackers", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/RiceCrackers.jpeg", ytLink: "" }
+    { name: "Rice Crackers", description: "Crispy snacks made from rice flour, often seasoned with soy sauce, seaweed, or other flavorings, popular in East Asian cuisine.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/RiceCrackers.jpeg", ytLink: "" }
 ];
 const japaneseDessert = [
-    { name: "Sakura Mochi", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/SakuraMochi.jpeg", ytLink: "" },
+    { name: "Sakura Mochi", description: "A traditional Japanese sweet consisting of a rice cake filled with sweet red bean paste and wrapped in a pickled cherry blossom leaf.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/SakuraMochi.jpeg", ytLink: "" },
     { name: "Hokkaido Baked Cheese Tarts", description: "Flaky pastry filled with a creamy and velvety cheese mixture, originating from Hokkaido, Japan.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Tart.jpeg", ytLink: "" },
     { name: "Raindrop Cake", description: "A translucent and gelatinous dessert from Japan resembling a droplet of water, often served with sweet syrup and roasted soybean flour.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/RaindropCake.jpeg", ytLink: "" },
     { name: "Purin", description: "A silky and creamy Japanese custard pudding with a caramel sauce topping.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Purin.jpeg", ytLink: "" }
@@ -71,23 +71,23 @@ const japaneseDessert = [
 const mexicanMain = [
     { name: "Tamale", description: "A traditional Latin American dish made of masa dough filled with various ingredients such as meats, cheeses, or vegetables, wrapped in corn husks and steamed.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Tamales.jpeg", ytLink: "" },
     { name: "Burrito", description: "A Mexican dish consisting of a flour tortilla wrapped around a filling of beans, meat, cheese, rice, and other ingredients.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Burrito.webp", ytLink: "" },
-    { name: "Quesadilla", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Quesadilla.webp", ytLink: "" },
-    { name: "Enchiladas", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Enchiladas.webp", ytLink: "" }
+    { name: "Quesadilla", description: "A Mexican dish consisting of a tortilla filled with cheese and often other ingredients such as meat, beans, or vegetables, folded in half and grilled until crispy.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Quesadilla.webp", ytLink: "" },
+    { name: "Enchiladas", description: "A Mexican dish consisting of rolled tortillas filled with a savory filling such as meat or cheese, topped with chili sauce and baked until bubbly.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Enchiladas.webp", ytLink: "" }
 ];
 const mexicanDrink = [
     { name: "Rompope", description: "A Mexican version of eggnog, featuring a rich and creamy drink made with milk, sugar, eggs, and flavored with vanilla and spices.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Rompope.webp", ytLink: "" },
-    { name: "Hibiscus Tea", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/HibiscusTea.jpeg", ytLink: "" },
+    { name: "Hibiscus Tea", description: "A herbal tea made from the dried calyces of the hibiscus flower, known for its vibrant red color and tart flavor.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/HibiscusTea.jpeg", ytLink: "" },
     { name: "Carajillo", description: "A Spanish cocktail made with espresso and either brandy, rum, or whiskey, often served over ice.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Carajillo.webp", ytLink: "" }
 ];
 const mexicanSnack = [
-    { name: "Nachos", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Nachos.jpeg", ytLink: "" },
-    { name: "Tacos", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Taco.jpeg", ytLink: "" },
-    { name: "Chimichanga", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Chimichanga.jpeg", ytLink: "" } 
+    { name: "Nachos", description: "A popular Tex-Mex dish featuring tortilla chips topped with melted cheese and often additional toppings such as salsa, guacamole, and sour cream.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Nachos.jpeg", ytLink: "" },
+    { name: "Tacos", description: "A Mexican dish featuring a folded or rolled corn or wheat tortilla filled with various ingredients such as meat, cheese, vegetables, and salsa.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Taco.jpeg", ytLink: "" },
+    { name: "Chimichanga", description: "A deep-fried burrito typically filled with a savory mixture of meat, beans, cheese, and spices, popular in Southwestern cuisine.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Chimichanga.jpeg", ytLink: "" } 
 ];
 const mexicanDessert = [
-    { name: "Mexican Hot Chocolate Pie", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MexicanHotChocolatePie.jpeg", ytLink: "" },
-    { name: "Churros", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Churros.webp", ytLink: "" },
-    { name: "Flan Mexicano", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/FlanMexicano.jpeg", ytLink: "" }
+    { name: "Mexican Hot Chocolate Pie", description: "A rich and indulgent dessert featuring a chocolate filling flavored with cinnamon and chili peppers, served in a pie crust.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MexicanHotChocolatePie.jpeg", ytLink: "" },
+    { name: "Churros", description: "Fried dough pastry typically dusted with cinnamon sugar, often served with chocolate sauce or caramel for dipping, popular in Spanish and Latin American cuisines.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Churros.webp", ytLink: "" },
+    { name: "Flan Mexicano", description: "A creamy and smooth caramel custard dessert popular in Mexican cuisine, made with eggs, milk, sugar, and vanilla.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/FlanMexicano.jpeg", ytLink: "" }
 ];
 
 const westernMain = [
@@ -97,9 +97,9 @@ const westernMain = [
     { name: "Fish and Chips", description: "A classic British dish featuring battered and deep-fried fish served with crispy fries, often accompanied by tartar sauce and malt vinegar.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/FishAndChips.webp", ytLink: "" }
 ];
 const westernDrink = [
-    { name: "Hot Chocolate", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/HotChocolate.jpeg", ytLink: "" },
+    { name: "Hot Chocolate", description: "A warm and comforting beverage made from melted chocolate or cocoa powder mixed with milk or water, often served with whipped cream or marshmallows.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/HotChocolate.jpeg", ytLink: "" },
     { name: "Lemonade", description: "A refreshing beverage made from freshly squeezed lemon juice, water, and sugar, served over ice.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Lemonade.jpeg", ytLink: "" },
-    { name: "Root Beer", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/RootBeer.webp", ytLink: "" }
+    { name: "Root Beer", description: "A sweet and carbonated soft drink flavored with extracts from the sassafras tree, traditionally brewed with spices such as cinnamon and cloves.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/RootBeer.webp", ytLink: "" }
 ];
 const westernSnack = [
     { name: "Salad", description: "A dish typically consisting of mixed greens, vegetables, and often additional ingredients like nuts, cheese, or proteins, served with dressing.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Salad.jpeg", ytLink: "" },
@@ -107,10 +107,10 @@ const westernSnack = [
 ];
 const westernDessert = [
     { name: "Chocolate Lava Cake", description: "A decadent dessert featuring a rich chocolate cake with a gooey, molten chocolate center.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChocolateLavaCake.jpeg", ytLink: "" },
-    { name: "Tiramisu", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Tiramisu.jpeg", ytLink: "" },
-    { name: "Cinnamon Rolls", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/CinnamonRolls.webp", ytLink: "" },
-    { name: "Donuts", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Donuts.jpeg", ytLink: "" },
-    { name: "Gingerbread Cookies", description: "test", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/GingerbreadCookies.jpeg", ytLink: "" }
+    { name: "Tiramisu", description: "An Italian dessert made with layers of coffee-soaked ladyfingers and a creamy mixture of mascarpone cheese, eggs, and sugar, dusted with cocoa powder.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Tiramisu.jpeg", ytLink: "" },
+    { name: "Cinnamon Rolls", description: "Soft and fluffy rolls of sweet dough filled with cinnamon and sugar, typically topped with cream cheese frosting.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/CinnamonRolls.webp", ytLink: "" },
+    { name: "Donuts", description: "Deep-fried pastry dough typically shaped into rings or filled with various sweet fillings, often coated with sugar, glaze, or icing.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Donuts.jpeg", ytLink: "" },
+    { name: "Gingerbread Cookies", description: "Spiced cookies made from gingerbread dough, often shaped into festive shapes and decorated with icing or candy.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/GingerbreadCookies.jpeg", ytLink: "" }
 ];
 
 function generateRandomFood() {
