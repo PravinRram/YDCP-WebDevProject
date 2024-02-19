@@ -114,6 +114,17 @@ const westernDessert = [
 ];
 
 function generateRandomFood() {
+
+    const ytVidContainer = document.getElementById("video-container");
+    const foodImage = document.getElementById("randomFoodImg");
+    const foodName = document.getElementById("randomFoodName");
+    const foodDescript = document.getElementById("randomFoodDescription");
+    const loader = document.getElementById("custom-loader");
+
+    loader.style.display = 'block';
+
+    setTimeout(() => {
+
     const cuisine = document.getElementById("cuisines").value;
     const foodType = document.getElementById("types").value;
     let foodOptions;
@@ -148,6 +159,14 @@ function generateRandomFood() {
     document.getElementById("randomFoodDescription").innerText = randomFood.description;
     document.getElementById("randomFoodImg").src = randomFood.imageSrc;
     document.getElementById("randomFoodVideo").href = randomFood.ytLink;
+
+    ytVidContainer.style.display = 'block';
+    foodName.style.display = 'block';
+    foodImage.style.display = 'block';
+    foodDescript.style.display = 'block';
+    loader.style.display = 'none';
+
+    }, 1500);
 }
 
 function getFoodOptions(main, drink, snack, dessert, foodType) {
