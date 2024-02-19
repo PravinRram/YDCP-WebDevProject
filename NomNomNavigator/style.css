@@ -136,11 +136,13 @@ body {
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    padding: 13px;
 }
 
 #yt-img {
     width: 60px;
     filter: grayscale(100%);
+    padding-right: 13px;
 }
 
 #randomFoodVideo {
