@@ -324,9 +324,10 @@ body {
 }
 
 .gradient-button {
-    border: 3px solid rgba(135, 120, 246, 0.6);
-    background-color: rgba( 255, 255, 255, 0.1 );
-    border-radius: 13px;
+    border-radius: 15px;
+    background: #eda6ec;
+    box-shadow:  20px 20px 60px #c98dc9,
+                 -20px -20px 60px #ffbfff;
     padding: 17px;
     font-size: 23px;
     font-weight: bold;
