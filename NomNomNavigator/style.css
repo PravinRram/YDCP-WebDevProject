@@ -8,17 +8,17 @@
 
 @font-face {
     font-family: JetBrains_Mono_Medium;
-    src: url(JetBrainsMono-Medium.ttf);
+    src: url(fonts/JetBrainsMono-Medium.ttf);
 }
 
 @font-face {
     font-family: JetBrains_Mono_Light;
-    src: url(JetBrainsMono-Light.ttf);
+    src: url(fonts/JetBrainsMono-Light.ttf);
 }
 
 @font-face {
     font-family: JetBrains_Mono_SemiBold;
-    src: url(JetBrainsMono-SemiBold.ttf);
+    src: url(fonts/JetBrainsMono-SemiBold.ttf);
 }
 
 header {
@@ -366,6 +366,7 @@ body {
     margin-top: 0px;
     margin-bottom: 20px;
     float: left;
+    line-height: 2;
 }
 
 .about-pg-paragraphs {
