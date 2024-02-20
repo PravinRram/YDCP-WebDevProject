@@ -120,6 +120,7 @@ function generateRandomFood() {
     const foodName = document.getElementById("randomFoodName");
     const foodDescript = document.getElementById("randomFoodDescription");
     const loader = document.getElementById("custom-loader");
+    document.getElementbyId("generate-button").disabled = true
 
     loader.style.display = 'block';
 
@@ -165,6 +166,7 @@ function generateRandomFood() {
     foodImage.style.display = 'block';
     foodDescript.style.display = 'block';
     loader.style.display = 'none';
+    document.getElementbyId("generate-button").disabled = false
 
     }, 1500);
 }
