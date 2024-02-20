@@ -24,9 +24,9 @@ const indianMain = [
     { name: "Chicken Biryani", description: "A flavourful Indian dish made with aromatic basmati rice, tender chicken, and a blend of spices.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ChickenBiriyani.jpeg", ytLink: "https://www.youtube.com/watch?v=95BCU1n268w" },
     { name: "Masala Dosa", description: " A South Indian specialty consisting of a thin, crispy crepe made from fermented rice and lentil batter, filled with a spiced potato mixture.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MasalaDosa.jpeg", ytLink: "https://www.youtube.com/watch?v=CCab5oh0ZOc" },
     { name: "Paneer Masala", description: "A popular Indian dish featuring cubes of paneer (Indian cottage cheese) cooked in a rich and flavorful tomato-based gravy, infused with aromatic spices like cumin, coriander, and garam masala.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/PaneerMasala.jpeg", ytLink: "https://www.youtube.com/watch?v=U1LVDFwi8qI" }
+];
 
-const indianDrink = ['
-                     '))""}]
+const indianDrink = [
     { name: "Mango Lassi", description: "A popular Indian drink made from ripe mangoes, yogurt, milk, and sugar, blended into a smooth and creamy concoction.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/MangoLassi.jpeg", ytLink: "https://www.youtube.com/watch?v=oDkevUiEVvw" },
     { name: "Buttermilk", description: "A tangy and refreshing dairy beverage made from the liquid left over after churning butter from cream.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/ButterMilk.jpeg", ytLink: "https://www.youtube.com/watch?v=k-v7jZFFoqc" },
     { name: "Chai", description: "A spiced tea beverage originating from the Indian subcontinent, typically made with black tea, milk, sugar, and spices such as cardamom, cinnamon, and ginger.", imageSrc: "https://raw.githubusercontent.com/PravinRram/YDCP-WebDevProject/main/NomNomNavigator/images/Chai.webp", ytLink: "https://www.youtube.com/watch?v=8fQAxZahx_U" },
