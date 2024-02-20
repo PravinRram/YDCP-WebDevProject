@@ -339,6 +339,10 @@ body {
     background-color: rgba(135, 120, 246, 0.6) ;
 }
 
+.gradient-button:focus {
+    color: #04021A;
+}
+
 .gradient-text {
     color: #04021A;
     margin-bottom: 35px;
@@ -347,11 +351,36 @@ body {
     font-weight: 400;
 }
 
-
 .footer {
     font-family: JetBrains_Mono_Light, "Arial";
-    font-size: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-pg-titles {
+    font-family: JetBrains_Mono_SemiBold,"Arial";
+    margin-top: 0px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.about-pg-paragraphs {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 1.58;
+}
+
+.feedback-pg {
+    font-family: JetBrains_Mono_Light,"Arial";
+    margin-top: 0px;
+    margin-bottom: 20px;
+    float: left;
 }
