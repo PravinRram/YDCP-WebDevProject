@@ -120,10 +120,8 @@ function generateRandomFood() {
     const foodName = document.getElementById("randomFoodName");
     const foodDescript = document.getElementById("randomFoodDescription");
     const loader = document.getElementById("custom-loader");
-    const generateFoodBtn = document.getElementbyId("generate-button");
 
     loader.style.display = 'block';
-    generateFoodBtn.disabled = true;
 
     setTimeout(() => {
 
@@ -167,7 +165,6 @@ function generateRandomFood() {
     foodImage.style.display = 'block';
     foodDescript.style.display = 'block';
     loader.style.display = 'none';
-    generateFoodBtn.disabled = false;
 
     }, 1500);
 }
