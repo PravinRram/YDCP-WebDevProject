@@ -106,6 +106,9 @@ body {
     background-color: #04021A;
     color: #efe2fd;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .food-card {
@@ -354,16 +357,17 @@ body {
 .footer {
     font-family: JetBrains_Mono_Light, "Arial";
     width: 100%;
-    bottom: 0;
-    left: 0;
-    position: fixed;
+    bottom: 0%;
+    left: 0%;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: auto;
+    position: relative;
 }
 
 .about-pg-titles {
     font-family: JetBrains_Mono_SemiBold,"Arial";
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 20px;
     float: left;
     line-height: 2;
