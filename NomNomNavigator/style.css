@@ -106,9 +106,13 @@ body {
     background-color: #04021A;
     color: #efe2fd;
     font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    min-height: 100vh;
+}
+
+.non-homepage-body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 .food-card {
