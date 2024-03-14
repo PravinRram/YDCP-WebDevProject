@@ -10,14 +10,21 @@
 
     <body>
         <header>
+            <ul class="sidebar">
+                <li class="sidebar-svg" onclick="hideSidebar()"><a><svg xmlns="http://www.w3.org/2000/svg" height="25" viewBox="0 -960 960 960" width="25" fill="#E5E3FD"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li class="sidebar-non-svg"><a href="home.html">Home</a></li>
+                <li class="sidebar-non-svg"><a href="about.html">About</a></li>
+                <li class="sidebar-non-svg"><a href="feedback.html">Feedback</a></li>
+            </ul>
             <div class="logo-container">
                 <img id="header-logo" src="otherImages/NNNlogo.png">
                 <a href="home.html" class="logo">NomNomNavigator</a>
             </div>
             <div class="header-right">
-                <a class="header-button active-tab" href="home.html">Home</a>
-                <a class="header-button" href="about.html">About</a>
-                <a class="header-button" href="feedback.html">Feedback</a>
+                <a class="header-button active-tab hideOnMobile" href="home.html">Home</a>
+                <a class="header-button hideOnMobile" href="about.html">About</a>
+                <a class="header-button hideOnMobile" href="feedback.html">Feedback</a>
+                <a class="header-button menu-button" onclick="showSidebar()"><svg xmlns="http://www.w3.org/2000/svg" height="33" viewBox="0 -960 960 960" width="33" fill="#E5E2FD"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
             </div>
         </header>
 

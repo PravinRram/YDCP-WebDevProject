@@ -407,3 +407,134 @@ body {
     margin-top: 20px;
     display: block;
 }
+
+.sidebar ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    top: 0;
+    position: fixed;
+    padding-inline-start: 0px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 350px;
+    z-index: 99999;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    backdrop-filter: blur(10px);
+    font-size: 20px;
+    font-family: JetBrains_Mono_Light, "Arial";
+}
+
+.sidebar li {
+    height: 50px;
+    width: 100%;
+    text-decoration: none;
+    list-style: none;
+    fill: #04021A;
+}
+
+.sidebar a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #E5E2FD;
+    width: 100%;
+}
+
+header .sidebar a {
+    float: left;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.sidebar svg {
+    vertical-align: top;
+}
+
+.sidebar .sidebar-svg a {
+    padding-top: 20px;
+    padding-left: 27px;
+    margin-bottom: 10px;
+    max-height: 25px;
+}
+
+.sidebar .sidebar-svg a:hover {
+    fill: #04021A;
+    background-color: transparent;
+}
+
+
+header .sidebar .sidebar-non-svg a:hover {
+    background-color: #E5E2FD;
+    color: #04021A;
+    border-radius: 0px;
+    width: 100%;
+    fill: #04021A;
+}
+
+.menu-button {
+    border: 3px solid rgba(135, 120, 246, 0.6);
+    border-radius: 13px;
+    margin-left: 5px;
+    padding: 17px;
+    max-height: 72px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-button svg {
+    color: #E5E2FD;
+    vertical-align: top;
+}
+
+.menu-button:hover {
+    background-color: #8778F6;
+    color: #efe2fd;
+}
+
+.menu-button:active {
+    background: rgba(135, 120, 246, 0.6);
+    color: #efe2fd;
+}
+
+* {
+    margin-top: 0;
+}
+
+@media (max-width: 1200px) {
+    .hideOnMobile {
+        display: none;
+    }
+    .menu-button {
+        display: block;
+    }
+}
+
+@media (max-width: 750px) {
+    .sidebar {
+        width: 100%;
+    }
+    .logo {
+        display: none;
+    }
+}
