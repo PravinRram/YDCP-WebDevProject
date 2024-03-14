@@ -7,3 +7,5 @@ We made a website that helps the user choose a food to eat using a randomiser
 The user has the ability to choose what kind of food to eat via filters
 
 Website: https://pravinrram.github.io/YDCP-WebDevProject/NomNomNavigator/home.html
+
+Shorterned Link: bit.ly/nomnomnavigator
