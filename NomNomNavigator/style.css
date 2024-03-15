@@ -138,7 +138,7 @@ body {
 }
 
 #randomFoodImg {
-    display: block;
+    display: none;
     margin-right: auto;
     margin-left: auto;
     width: 50%;
@@ -394,11 +394,54 @@ body {
     line-height: 1.58;
 }
 
+.feedback-content {
+    width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+#feedback-1 {
+    margin-bottom: 50px;
+}
+
+#feedback-2 {
+    margin-bottom: 150px;
+}
+
+.feedback-button {
+    border-radius: 15px;
+    background: #eda6ec;
+    box-shadow:  5px 5px 10px #c98dc9,
+                -5px -5px 10px #ffbfff78;
+    padding: 17px;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: JetBrains_Mono_Light, "Arial";
+    z-index: 999;
+}
+
+.feedback-button:hover {
+    background-color: rgba(135, 120, 246, 0.6) ;
+}
+
+.feedback-button:focus {
+    color: #04021A;
+}
+
 .feedback-pg {
     font-family: JetBrains_Mono_Light,"Arial";
     margin-top: 0px;
-    margin-bottom: 20px;
-    float: left;
+    margin-bottom: 35px;
+    text-align: center;
+    margin-bottom: 35px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #E5E2FD;
 }
 
 .feedback-container {
@@ -408,11 +451,15 @@ body {
     -webkit-backdrop-filter: blur( 4px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     border-radius: 40px;
-    width: 100%;
 
     padding: 25px;
-    margin-top: 20px;
+    position: relative;
     display: block;
+    height: fit-content;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .sidebar ul {
