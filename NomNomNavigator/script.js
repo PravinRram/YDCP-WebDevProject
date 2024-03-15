@@ -121,8 +121,10 @@ function generateRandomFood() {
     const foodName = document.getElementById("randomFoodName");
     const foodDescript = document.getElementById("randomFoodDescription");
     const loader = document.getElementById("custom-loader");
+    const foodCardMessage = document.getElementById("food-card-message");    
 
     loader.style.display = 'block';
+    foodCardMessage.style.display = "none";
 
     setTimeout(() => {
 
